@@ -1,0 +1,29 @@
+{
+  "name": "ternio-teacher",
+  "version": "1.0.0",
+  "description": "Teaching tool for new blockchain learners.",
+  "main": "ternioteacher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start" : "node ternteach.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bot1"
+  },
+  "keywords": [
+    "teacher",
+    "teaching",
+    "tool",
+    "blockchain",
+    "learning",
+    "quiz"
+  ],
+  "author": "Mikaelo Lombard <miguelcodeworld@gmail.com> (https://github.com/mikaeloLombard)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
