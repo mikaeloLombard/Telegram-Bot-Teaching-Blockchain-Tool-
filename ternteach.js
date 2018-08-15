@@ -22,11 +22,11 @@ app.post('/new-message', function(req, res) {
   }
 
   // If we've gotten this far, it means that we have received a message containing the word "hello".
-  // Respond by hitting the telegram bot API and responding to the approprite chat_id with the word "Polo!!"
+  // Respond by hitting the telegram bot API and responding to the approprite chat_id with the sentences "Hello, I am Prof. TERN Welcome to Ternio Academy!"
   // Remember to use your own API toked instead of the one below  "https://api.telegram.org/bot<your_api_token>/sendMessage"
   axios
     .post(
-      'https://api.telegram.org/bot692897696:AAG9R3GAmTTtqNHvIZYZAjKqs1V3FkojxUA/sendMessage',
+      'https://api.telegram.org/bot<your_tokenhere>/sendMessage',
       {
         chat_id: message.chat.id,
         text: 'Hello, I am Prof. TERN \n  Welcome to Ternio Academy!'
